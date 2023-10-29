@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>S&A Šahovski Klub</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/mojStil.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="splash">
+    <h1 class="fade-in">Dobrodošli u šahovski klub!</h1>
+    <img src="img/sahlogo1.png" width="20%" height="35%" class="responsive fade-in">
+  </div>
+
+  <!-- navbar-expand-md za 718px width-->
+  <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid nnn">
+      <a class="navbar-brand" href="index.html"><img src="img/sahlogo1.png" width="100px" height="auto" style="margin-left: 20%;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto" style="display: flex; justify-content: center; align-items: center;">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Početna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aktivnosti.html">Aktivnosti</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="povijest.html">Povijest&Pravila</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="onama.html">O nama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="upisi.html">Upiši se</a>
+          </li>
+          <li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--- Karusel-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/sah.jpg">
+            <div class="carousel-caption"  style="color: beige;">
+                <h3 class="display-2">Nauči šah!</h3>
+                <h4>Nauči igrati šah kao Magnus Carlsen!</h4>
+                <a href="upisi.html"><button type="button" class="btn btn-danger btn-lg">Upiši se</button></a>
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-caption">
+                <h3 class="display-2">Metak-šah za one najbrže!</h3>                  
+            </div>
+            <img src="img/sah2.jpeg">
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h3 class="display-2">Igraj brzopotezni šah!</h3>                  
+          </div>
+            <img src="img/sah3.jpg">
+        </div>
+    </div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">Najveći šahovski klub na području Rijeke i šire!</p>
+        </div>
+        
+    </div>
+</div>
+
+<br>
+
+    <video width="80%" height="auto" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" controls>
+        <source src="AnimacijaIgranjeSaha.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+<br>
+
+<br>
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+          <h2>Rapid turniri</h2>
+          <p>Prijavi se na jedan od naših rapid turnira! </p>
+          <img src="img/rapid.jpg" alt="Klavir" width="60%" height="auto">
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+          <h2>Brzopotezni turniri</h2>
+          <p>Prijavi se na neki od brzopoteznih turnira za brže partije!</p>
+          <img src="img/blitz.jpg" alt="Gitara" width="60%" height="auto">
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h2>Metak-šah turniri</h2>
+        <p>Želiš najbrže moguće partije? Prijavi se na metak-šah!</p>
+        <img src="img/bullet.jpg" alt="Gitara" width="60%" height="auto">
+      </div>
+  </div>
+  <hr class="my-4">
+</div>
+
+
+<!--- Poveži se -->
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+      <div class="col-12">
+          <h2>Poveži se s nama!</h2>
+      </div>
+      <div class="col-12 social padding">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+
+          
+      </div>
+  </div>
+</div>
+
+<!--- Footer -->
+<footer>
+  <div class="container-fluid padding foot">
+      <div class="row text-center">
+          <div class="col-md-4">
+              <hr class="light">
+              <p>092-222-2222</p>
+              <p>S&AŠahovskiKlub@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+              <hr class="light">
+              <h5>Radno vrijeme</h5>
+              <hr class="light">
+              <p>Preko tjedna: 17:00 - 22:00 </p>
+              <p>Subota: 12:00 - 17:00</p>
+              <p>Nedjelja: 13:00 - 17:00</p>
+          </div>
+          <div class="col-md-4">
+              <hr class="light">
+              <h5>Mjesto</h5>
+              <hr class="light">
+              <p>Radmile Matejčić 2, Rijeka, Hrvatska, 51000</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
+
+
+
